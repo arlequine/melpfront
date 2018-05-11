@@ -1,0 +1,124 @@
+/* || general styles */
+
+html {
+  font-family: arial;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* header styles */
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#logo{
+  font-size: 35px;
+  text-decoration: none;
+  color: #000;
+}
+
+/*Nav bar*/
+.tm-main-nav { font-size: 1.2rem; }
+
+.navbar-nav .nav-link {
+	border-radius: 6px;
+	color: black;
+	padding: 10px 40px;
+}
+
+.nav-item.active .nav-link,
+.nav-link:hover,
+.nav-link:focus {
+	color: white;
+	background-color: #fd4a3d;
+}
+#nav{
+  float: right;
+}
+/* section styles */
+
+section article {
+  width: 23%;
+  display: flex;
+}
+.blocks {
+  margin-left: 45px;
+}
+section p {
+  margin: 5px 0;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 28px; */
+  letter-spacing: -5px;
+  margin-bottom: 20px;
+  margin-top: 0px !important;
+}
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+.panel {
+  width: 440px;
+  display: inline-block;
+}
+.panel-heading{
+  background-color: #c5c6a7 !important;
+}
+/* Rating */
+.rating {
+    border-radius: 50%;
+    behavior: url(PIE.htc);
+    /* remove if you don't care about IE8 */
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid ##9FF781;
+    color: #666;
+    text-align: center;
+    font: 22px Arial, sans-serif;
+}
+/* map */
+#mapa { height: 500px; }
+ /* footer*/
+ .contenedor{
+   max-width: 800px;
+   margin: auto;
+   position: relative;
+ }
+.footer {
+  background: #fd4a3d;
+  padding: 50px 10px;
+}
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.col1 {
+  align-items: flex-start;
+}
+
+.col1 {
+  color: #ffffff;
+  margin-top: 15px;
+}
+.title_footer {
+  color: #ffffff;
+}
